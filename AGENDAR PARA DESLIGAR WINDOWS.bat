@@ -4,7 +4,7 @@ title AUTOMATIC SHUTDOWN
 cls
 color c0
 echo.
-echo.                      A U T O M A T I C    S H U T D O W N
+echo.             D E S L I G A M E N T O  A U T O M A T I C O
 echo.  ____________________________________________________________________________
 echo. /___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/
 echo.
