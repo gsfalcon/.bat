@@ -1,6 +1,6 @@
 :INI
 @ECHO Off
-title AUTOMATIC SHUTDOWN
+title DESLIGAMENTO AUTOMATICO
 cls
 color c0
 echo.
@@ -14,7 +14,7 @@ echo.             3 - AGENDAR PARA DESLIGAR EM 45 MINUTOS
 echo.             4 - AGENDAR PARA DESLIGAR EM 1 HORA
 echo.             5 - AGENDAR PARA DESLIGAR EM 1 HORA E MEIA
 echo.             6 - AGENDAR PARA DESLIGAR EM 2 HORAS
-echo.             7 - AGENDAR PARA DESLIGAR EM 10 HORAS (sleep mode)
+echo.             7 - AGENDAR PARA DESLIGAR EM 10 HORAS
 echo.             8 - CANCELAR TODOS OS AGENDAMENTOS
 echo.             9 - SAIR
 echo.
