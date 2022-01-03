@@ -1,17 +1,17 @@
 @echo off
 echo.
 @color c0
-@title RENOVAR IP
+@title RENEW IP
 cls
 echo ===============================
-echo Renovando IP
+echo RENEWING IP
 echo ===============================
 echo.
 echo.
 cls
-echo RENOVAR IP?
-echo 1 - SIM
-echo 2 - NAO
+echo RENEW IP ?
+echo 1 - YES / SIM
+echo 2 - NO / NAO
 set /p resp=
 if "%resp%" == "1" (goto process) else (goto end)
 echo.
@@ -22,14 +22,14 @@ ipconfig /setclassid
 ipconfig /release
 ipconfig /renew
 echo.
-echo IP RENOVADO
+echo NEW IP !
 echo.
 pause >nul
 exit
 
 :end
 echo.
-echo PRESSIONE QUALQUER TECLA PARA SAIR
+echo PRESS ANY KEY TO EXIT
 pause>nul
 cls
 msg * FALCON
