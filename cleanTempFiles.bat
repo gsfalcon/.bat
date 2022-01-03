@@ -1,4 +1,4 @@
-REM @ SCRIPT PARA ELIMINAR ARQUIVOS TEMPORARIOS
+REM @ CLEAN WINDOWS TEMP FILES
 REM @ GSFALCON 2022
 
 taskkill /F /IM "ccleaner64.exe"
@@ -6,19 +6,19 @@ taskkill /F /IM "ccleaner.exe"
 
 REM ******************** WINDOWS ********************
 
-REM Apaga todas as pastas temporarias e arquivos temporarios do usuario
+REM Deletes all temp folders and user temp files
 takeown /A /R /D Y /F C:\Users\%USERNAME%\AppData\Local\Temp\
 icacls C:\Users\%USERNAME%\AppData\Local\Temp\ /grant administradores:F /T /C
 rmdir /q /s C:\Users\%USERNAME%\AppData\Local\Temp\
 md C:\Users\%USERNAME%\AppData\Local\Temp\
 
-REM Apaga os arquivos de \Windows\Temp
+REM Delete files from \Windows\Temp
 takeown /A /R /D Y /F C:\windows\temp
 icacls C:\windows\temp /grant administradores:F /T /C
 rmdir /q /s c:\windows\temp
 md c:\windows\temp
 
-REM Apaga arquivos de log
+REM Erase log files
 del c:\windows\logs\cbs\*.log
 del C:\Windows\Logs\MoSetup\*.log
 del C:\Windows\Panther\*.log /s /q
