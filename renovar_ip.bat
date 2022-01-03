@@ -1,7 +1,7 @@
 @echo off
 echo.
 @color c0
-@title Renovando IP
+@title RENOVAR IP
 cls
 echo ===============================
 echo Renovando IP
