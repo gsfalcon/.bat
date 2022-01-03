@@ -1,10 +1,10 @@
 :INI
 @ECHO Off
-title DESLIGAMENTO AUTOMATICO
+title SHUTDOWN - DESLIGAMENTO AUTOMATICO
 cls
 color c0
 echo.
-echo.             D E S L I G A M E N T O  A U T O M A T I C O
+echo.             S H U T D O W N
 echo.  ____________________________________________________________________________
 echo. /___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/___/
 echo.
