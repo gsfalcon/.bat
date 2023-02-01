@@ -5,7 +5,7 @@ cls
 color c0
 echo.
 echo.
-echo.             S H U T D O W N
+echo.             W I N D O W S - S H U T D O W N
 echo.  ________________________________________________________
 echo. /___/___/___/___/___/___/___/___/___/___/___/___/___/___/
 echo.
