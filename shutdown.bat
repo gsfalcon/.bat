@@ -144,7 +144,7 @@ goto activated
 echo.
 echo.      DESLIGAMENTO PROGRAMADO COM SUCESSO!
 echo.     **************************************
-echo.              
+echo.
 echo.
 pause
 echo.
