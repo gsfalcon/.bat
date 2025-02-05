@@ -20,8 +20,8 @@ Windows Batch Files repository, you can find a collection of useful `.bat` scrip
 - **`shutdownWin.bat`**: Automate Windows shutdown processes.
 
 ## 🛡️ Badges
-![GitHub top language](https://img.shields.io/github/languages/top/gsfalcon/Windows-Batch-Files)
-![GitHub repo size](https://img.shields.io/github/repo-size/gsfalcon/Windows-Batch-Files)
+![GitHub top language](https://img.shields.io/github/languages/top/gsfalcon/.bat)
+![GitHub repo size](https://img.shields.io/github/repo-size/gsfalcon/.bat)
 
 ## 🤝 How to Contribute
 If you have new scripts to share or improvements to existing ones, contributions are welcome!
